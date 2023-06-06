@@ -171,3 +171,33 @@ nav ul li a:hover {
     -webkit-animation-delay: 2s;
     animation-delay: 2s;
 }
+
+#numbers {
+    width: 100vw !important;
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(109, 196, 167, 0.568)), to(rgba(4, 184, 145, 0.603)));
+    background-image: linear-gradient(to right, rgba(109, 196, 167, 0.568), rgba(4, 184, 145, 0.603));
+}
+
+#numbers i:hover {
+    -webkit-transform: translateY(-15%);
+    transform: translateY(-15%);
+}
+
+#numbers i {
+    color: #119e8b;
+    cursor: pointer;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+#numbers h3 {
+    color: #8b8b8b;
+    font-size: 2rem !important;
+    font-weight: 700;
+}
+
+#numbers .counter {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #858585;
+}
